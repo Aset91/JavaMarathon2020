@@ -3,8 +3,10 @@ package day1;
 public class Task4 {
     public static void main(String[] args) {
         int year = 1980;
-        for ( int x = year; x <= 2020; x+= 4 ) {
+        int x = year;
+        while (x <= 2020) {
             System.out.println("Олимпиада " + x + " года");
+            x+= 4;
         }
 
     }
