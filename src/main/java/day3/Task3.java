@@ -11,6 +11,7 @@ public class Task3 {
             System.out.println(x / y);
 
             if (y == 0) {
+
                 System.out.println("Деление на 0");
             }
         }
